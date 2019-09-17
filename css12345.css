@@ -1,0 +1,52 @@
+/****************************
+* @author Tobby Satyarama   *
+* @version 0.1              *
+* css template for resume   *
+****************************/
+
+h1 {
+    text-align:center;
+    font-size: 60px;
+    color:#5779b2;
+}
+
+h4{
+    margin-top: 20px;
+    color:#7c99ba;
+}
+
+h3{
+    margin-top: 20px;
+    border-top: 2px dashed #5678af;
+    padding-top: 10px;
+    color:#4e6c8e;
+}
+
+strong {
+    color:#4d74b7;
+}
+
+#subtitle {
+    text-align:center;
+    font-size: 13px;
+    font-family:'Segoe UI';
+    color:#5678af;
+    font-weight:bold;
+    
+}
+
+.nav-pills > li {
+    float:right;
+    font-weight:bold;
+}
+
+.nav-pills > li > a {
+    color:#4d74b7;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    background-color:#4e6c8e;
+}
+

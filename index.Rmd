@@ -1,0 +1,128 @@
+---
+output: 
+  html_document:
+    theme: readable
+    css: css12345.css
+---
+
+# TOBBY SATYARAMA {.tabset .tabset-fade .tabset-pills}
+<p id="subtitle">MATHEMATICIAN AND BUDDING DATA SCIENTIST</p>
+
+## Skills / Portfolio
+
+### Data Analysis
+
+* Python 3.7:
+    - Data manipulation (pandas, numpy, scikit)
+    - *Data visualisation*: making interactive graphs that allow more information on hovering (plotly)
+    - *Data analysis*: ARIMA/SARIMAX models, general linear models, time series analysis
+    - Automated processing of data
+    - Code documentation (Not a skill per se, but just pointing out that I do it unlike many others)
+
+* R:
+    - Data manipulation (cleaning, processing of analysis)
+      - Data structures I've worked with: data trees (hierarchical data), time-series
+    - Automation of data processing
+    - Analytical Techniques (hypothesis testing, first-principle problem solving)
+    - Statistical Modelling
+    - Report writing (LaTeX <a href="https://www.dropbox.com/s/6iuex1g85m4v8na/CATAM24.pdf?dl=0">sample</a>, Rmarkdown HTML <a href="http://rpubs.com/amph/hjkl">sample</a>)
+    - Data Visualisation (ggplot2, plotly for interactive graphs)
+    - Shiny App creation (a small <a href="https://amph.shinyapps.io/starforce/">app</a> I created as a tool for video game players to use sees about 25 hours of usage weekly)
+    - Completed <a href="https://www.coursera.org/account/accomplishments/specialization/R9KWFRXM6M83">Data Science Specialisation</a> on Coursera (10 courses, ~400 hours total)
+    - **NLP and text-mining**
+        * A rudimentary text-prediction app may be found <a href="https://amph.shinyapps.io/text-predict/">here</a>
+        * Kaggle Competition: Quora Insincere Questions Classification; used Keras to run a **LSTM RNN** to classify questions for sarcasm/insincere content
+    - Awareness of website scrapers and data miners: My e-mail address on my profile has been protected from e-mail harvesters with a bit of javascript
+    
+### Coding
+
+* Ruby, Javascript
+    - Familiarity with syntax and comfortable with short scripts
+* HTML, CSS
+    - This digital resume was created using R markdown with significant modification of the CSS and customisation using HTML
+    
+### Multilingualism
+
+* English: Extremely comfortable at a professional level; experienced in the use of language to deliver cogent, concise points with force of argument
+* Chinese (Mandarin): Intermediate level; spoken and written
+* Japanese: Intermediate level; spoken and written. JLPT N4
+* Bahasa Indonesia: Conversational level
+
+### General Computer Literacy
+
+* Self-sufficiency; there are few problems that can't be solved with online documentation for software or Google
+
+### Music
+
+* LTCL in Piano Performance
+
+## Profile
+
+### Hello!
+
+I am currently a 3^rd^ year Mathematics student in the University of Cambridge, expecting to graduate in 2020 with a MMath. My primary interest currently lies in the Statistics-related courses, but it also extends to the purer side of things such as Graph Theory and Measure Theory.
+
+Aside from my studies, I am also feeding a fast-growing interest in the art of data science and analytics. I am currently looking for an internship gain some valuable experience in the industry while practicing what I have learnt on my own so far.
+
+#### Work Eligibility
+
+As a student with a Tier 4 Visa, I am qualified to work **full-time** in the **UK** outside of term time, and as a Permanent Resident of **Singapore** I am also qualified to work **full-time** there as well.
+
+#### Contact
+
+<p>I can be contacted at <strong><script>var a = 'tobby.';var b ='satyarama@'; var c = 'gmail.'; var d = 'com'; document.write(a+b+c+d)</script></strong>.</p>
+
+## Work Experience
+
+### June 2019 - July 2019: Health Data Insight, Public Health England, NHS
+
+#### Get Data Out Intern
+
+<a href="https://www.cancerdata.nhs.uk/getdataout/data">Get Data Out</a> is a dataset produced by HDI that focuses on cancer data regarding small groups of patients. While the NHS' published statistics on national-level survival/treatment data is well known, Get Data Out instead considers groups of patients split by age, tumour type, progression of cancer, and looks at the treatment/incidence/survival data for each of these small groups (down to about 100 patients).
+
+I was hired as an intern, working under the brilliant Dr. Charlie Turner, to contribute to the development of this project, by creating apps, plots, etc that increase the accessibility of this data to the general public. I managed to not only create a working prototype of a live app that automates the generation of plots/graphs from the live data release, but also created improvements back-end to create the infrastructure of future development, such as through the automated generation of a .json data format from the live data release.
+
+### June 2018 - Dec 2018: Polaris&Dawn Consulting Pte Ltd
+
+#### Part-time tutor (Singapore-GCE A levels)
+
+* Economics, Mathematics, Chemistry, Biology
+
+I was a part-time tutor hired by a consulting firm to help international students in Singapore keep up with the Singapore-Cambridge GCE A level syllabus, which is notorious for being significantly harder compared to other pre-university exams across the world. As of now, one of my students has found himself attaining a **B** with help of my tutoring in **Economics**, up from an **E** earlier in the year. 
+
+### July 2017 - September 2017: Raffles Institution
+
+#### Alliances Office Executive
+
+* Student data management
+* International visitor logistics management
+
+This job over the summer after my 1^st^ year in university was mostly about administrating the GAP Semester in a pre-tertiary school in Singapore, which allowed students the opportunity to take 3 months off school to expand their skills in the outside world through research projects, overseas exchange programmes and local work and internship opportunities. My duties included maintaining the student database and monitoring how well the GAP Semester was going for the students, along with background administration to ensure all the programmes went ahead as planned. The overseas exchange programmes necessitated other duties as well, such as monitoring potential international safety situations and hosting international visitors.
+
+### April 2014 - February 2016: Singapore Armed Forces
+
+#### Manpower Administrative Support Assistant
+
+* Employee database management
+* Customer service for reservists
+* Organisation policy enforcement
+* Welfare administration
+
+For slightly less than 2 years, I was responsible for management of the welfare and administration for manpower at the brigade level in the armed forces. My main day-to-day responsibility was administration and management of the database of more than 1,000 employees for the purposes of monitoring employee statuses and promotions, and extended to discipline administration in the active unit.
+
+My responsibilities also included assisting reservists so that their yearly in-camp trainings went as smoothly as possible, advising reservists on the army's policies with regard to a yearly fitness test, and administration of their attendance and welfare during in-camp trainings. 
+
+## Coursework
+
+### Pure Mathematics
+
+- Analysis: **Measure Theory**, Metric and Topological Spaces, Variational Principles, Differential Equation Methods, Complex Analysis
+- Group Theory: Number Theory, Abelian Rings, Modules, Geometry
+- Linear Algebra: Vectors and Matrices, Linear Transformations, Bilinear Forms
+
+### Statistics
+
+- **Principles of Statistics**: Bayesian Inference, Confidence Intervals and Credible Sets, Bayesian Risk Analysis, Bootstrap Sampling, Non-parametric Methods
+- **Probability and Measure**: Convergence of Measurable Functions, Orthogonal Projection and Decomposition in L2 Space, Fourier Transforms and Characteristic Functions, Ergodic Theory
+- **Markov Chains**: Stopping Times, Invariant Distributions, Mean Return/Recurrence Times, Reversed Chains
+- **Applied Probability**: Continuous-time Markov Chains, Queuing Theory, Renewal Theory
