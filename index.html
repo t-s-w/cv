@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -70,9 +70,7 @@ h6 {
 
 <link href="data:text/css;charset=utf-8,%0Ah1%20%7B%0Atext%2Dalign%3Acenter%3B%0Afont%2Dsize%3A%2060px%3B%0Acolor%3A%235779b2%3B%0A%7D%0Ah4%7B%0Amargin%2Dtop%3A%2020px%3B%0Acolor%3A%237c99ba%3B%0A%7D%0Ah3%7B%0Amargin%2Dtop%3A%2020px%3B%0Aborder%2Dtop%3A%202px%20dashed%20%235678af%3B%0Apadding%2Dtop%3A%2010px%3B%0Acolor%3A%234e6c8e%3B%0A%7D%0Astrong%20%7B%0Acolor%3A%234d74b7%3B%0A%7D%0A%23subtitle%20%7B%0Atext%2Dalign%3Acenter%3B%0Afont%2Dsize%3A%2013px%3B%0Afont%2Dfamily%3A%27Segoe%20UI%27%3B%0Acolor%3A%235678af%3B%0Afont%2Dweight%3Abold%3B%0A%7D%0A%2Enav%2Dpills%20%3E%20li%20%7B%0Afloat%3Aright%3B%0Afont%2Dweight%3Abold%3B%0A%7D%0A%2Enav%2Dpills%20%3E%20li%20%3E%20a%20%7B%0Acolor%3A%234d74b7%3B%0A%7D%0A%2Enav%2Dpills%20%3E%20li%2Eactive%20%3E%20a%2C%0A%2Enav%2Dpills%20%3E%20li%2Eactive%20%3E%20a%3Ahover%2C%0A%2Enav%2Dpills%20%3E%20li%2Eactive%20%3E%20a%3Afocus%20%7B%0Abackground%2Dcolor%3A%234e6c8e%3B%0A%7D%0A" rel="stylesheet" type="text/css" />
 
-</head>
 
-<body>
 
 <style type="text/css">
 .main-container {
@@ -86,7 +84,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -97,22 +94,81 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -138,10 +194,10 @@ MATHEMATICIAN AND BUDDING DATA SCIENTIST
 <li>Python 3.7:
 <ul>
 <li>Data manipulation (pandas, numpy, scikit)</li>
-<li><em>Data visualisation</em>: making interactive graphs that allow more information on hovering (plotly)</li>
-<li><em>Data analysis</em>: ARIMA/SARIMAX models, general linear models, time series analysis</li>
+<li><strong>Data visualisation</strong>: making interactive graphs that allow more information on hovering (plotly)</li>
+<li><strong>Data analysis</strong>: ARIMA/SARIMAX models, general linear models, time series analysis</li>
 <li>Automated processing of data</li>
-<li>Code documentation (Not a skill per se, but just pointing out that I do it unlike many others)</li>
+<li>Code documentation (Not a skill per se, but just pointing out that I am familiar with conventions)</li>
 </ul></li>
 <li>R:
 <ul>
@@ -220,6 +276,14 @@ I can be contacted at <strong>
 </div>
 <div id="work-experience" class="section level2">
 <h2>Work Experience</h2>
+<div id="august-2019---october-2019-informetis-europe" class="section level3">
+<h3>August 2019 - October 2019: Informetis Europe</h3>
+<div id="data-analysis-intern" class="section level4">
+<h4>Data Analysis intern</h4>
+<p><a href="https://www.informetis.com/en/">Informetis</a> is a company which originated in Japan specialising in assisted living through machine learning and data science, currently early in its expansions in to Europe.</p>
+<p>I was tasked with trying to find a model that automatically detected gradual long-term pattern deviations in behaviour of occupants to hopefully spot cases of worsening dementia/depression early. It was a vast dataset with a lot of insight into how households behave, and I learned a lot from this experience.</p>
+</div>
+</div>
 <div id="june-2019---july-2019-health-data-insight-public-health-england-nhs" class="section level3">
 <h3>June 2019 - July 2019: Health Data Insight, Public Health England, NHS</h3>
 <div id="get-data-out-intern" class="section level4">
@@ -303,6 +367,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

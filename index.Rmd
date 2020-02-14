@@ -14,10 +14,10 @@ output:
 
 * Python 3.7:
     - Data manipulation (pandas, numpy, scikit)
-    - *Data visualisation*: making interactive graphs that allow more information on hovering (plotly)
-    - *Data analysis*: ARIMA/SARIMAX models, general linear models, time series analysis
+    - **Data visualisation**: making interactive graphs that allow more information on hovering (plotly)
+    - **Data analysis**: ARIMA/SARIMAX models, general linear models, time series analysis
     - Automated processing of data
-    - Code documentation (Not a skill per se, but just pointing out that I do it unlike many others)
+    - Code documentation (Not a skill per se, but just pointing out that I am familiar with conventions)
 
 * R:
     - Data manipulation (cleaning, processing of analysis)
@@ -73,6 +73,14 @@ As a student with a Tier 4 Visa, I am qualified to work **full-time** in the **U
 <p>I can be contacted at <strong><script>var a = 'tobby.';var b ='satyarama@'; var c = 'gmail.'; var d = 'com'; document.write(a+b+c+d)</script></strong>.</p>
 
 ## Work Experience
+
+### August 2019 - October 2019: Informetis Europe
+
+#### Data Analysis intern
+
+<a href = "https://www.informetis.com/en/">Informetis</a> is a company which originated in Japan specialising in assisted living through machine learning and data science, currently early in its expansions in to Europe.
+
+I was tasked with trying to find a model that automatically detected gradual long-term pattern deviations in behaviour of occupants to hopefully spot cases of worsening dementia/depression early. It was a vast dataset with a lot of insight into how households behave, and I learned a lot from this experience.
 
 ### June 2019 - July 2019: Health Data Insight, Public Health England, NHS
 
